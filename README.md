@@ -59,8 +59,19 @@ Este proyecto es una API REST para la gestión de clientes y cuentas bancarias, 
 
 ## Endpoints principales
 - `POST /cuentas` - Crear cuenta bancaria
+  ```
+  {
+  "dniCliente": "33333333C",
+  "tipoCuenta": "NORMAL",
+  "total": 50000
+   }
+   ```
 - `PUT /cuentas/{idCuenta}` - Actualizar solo el saldo de una cuenta
-
+   ```
+   {
+  "total": 50000
+   }
+   ```
 - `GET /clientes` - Listar clientes
 - `GET /clientes/{dni}` - Buscar cliente por DNI
 - `GET /clientes/mayores-de-edad` - Filtrar clientes por fecha de nacimiento
