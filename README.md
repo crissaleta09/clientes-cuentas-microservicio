@@ -45,10 +45,10 @@ Este proyecto es una API REST para la gestión de clientes y cuentas bancarias, 
    cd bankAccount
    ```
 2. Compila y ejecuta la aplicación:
-   con un IDE (Eclipse) 
-   hacer maven clean install para descargar las dependencias
-   maven update project, Alt+ F5
-   Run as Spring Boot App
+   - con un IDE (Eclipse) 
+   - hacer maven clean install para descargar las dependencias
+   - maven update project, Alt+ F5
+   - sobre el proyecto INFRASTRUCTURE Run as: Spring Boot app
 3. Accede a la API: `http://localhost:8080/swagger-ui/index.html`
 
 4. Accede a la Base de Datos: `http://localhost:8080/h2-console`
