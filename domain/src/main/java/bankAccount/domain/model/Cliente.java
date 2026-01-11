@@ -1,4 +1,4 @@
-package bankAccount.domain.model;
+package bankaccount.domain.model;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -7,9 +7,9 @@ import java.util.stream.Collectors;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Repository;
 
-import bankAccount.domain.model.Cliente;
-import bankAccount.domain.model.CuentaBancaria;
-import bankAccount.domain.repository.CustomerRepository;
+import bankaccount.domain.model.Cliente;
+import bankaccount.domain.model.CuentaBancaria;
+import bankaccount.domain.repository.CustomerRepository;
 import bankaccount.out.adapter.CustomerJpaRepository;
 import bankaccount.out.entity.ClienteEntity;
 import bankaccount.out.entity.CuentaBancariaEntity;

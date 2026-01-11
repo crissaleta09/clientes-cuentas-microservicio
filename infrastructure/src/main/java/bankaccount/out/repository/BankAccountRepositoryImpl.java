@@ -4,10 +4,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.server.ResponseStatusException;
 
-import bankAccount.domain.model.Cliente;
-import bankAccount.domain.model.CuentaBancaria;
-import bankAccount.domain.repository.BankAccountRepository;
-import bankAccount.domain.repository.CustomerRepository;
+import bankaccount.domain.model.Cliente;
+import bankaccount.domain.model.CuentaBancaria;
+import bankaccount.domain.repository.BankAccountRepository;
+import bankaccount.domain.repository.CustomerRepository;
 import bankaccount.out.adapter.BankAccountJpaRepository;
 import bankaccount.out.entity.ClienteEntity;
 import bankaccount.out.entity.CuentaBancariaEntity;

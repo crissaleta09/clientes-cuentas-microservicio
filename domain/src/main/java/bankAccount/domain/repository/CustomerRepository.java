@@ -1,8 +1,8 @@
-package bankAccount.domain.repository;
+package bankaccount.domain.repository;
 
 import java.util.List;
 
-import bankAccount.domain.model.Cliente;
+import bankaccount.domain.model.Cliente;
 
 /**
  * Repository interface for customer management

@@ -1,11 +1,11 @@
-package bankAccount.application.service;
+package bankaccount.application.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import bankAccount.domain.model.Cliente;
-import bankAccount.domain.repository.CustomerRepository;
+import bankaccount.domain.model.Cliente;
+import bankaccount.domain.repository.CustomerRepository;
 
 /**
  * @Service class for customer management

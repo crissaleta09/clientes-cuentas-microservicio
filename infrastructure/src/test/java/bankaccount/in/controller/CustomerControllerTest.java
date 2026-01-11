@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -23,6 +24,7 @@ import static org.hamcrest.Matchers.hasSize;
 
 @SpringBootTest
 @AutoConfigureMockMvc
+@Transactional
 public class CustomerControllerTest {
 
     @Autowired
@@ -30,9 +32,17 @@ public class CustomerControllerTest {
 
     @Test
     public void testCustomersReturnsFive() throws Exception {
-        mockMvc.perform(get("/clientes"))
+    	String response = mockMvc.perform(get("/clientes"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$", hasSize(5)));
+                .andReturn()
+                .getResponse()
+                .getContentAsString();
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.findAndRegisterModules();
+        List<Cliente> clientes = objectMapper.readValue(response, new TypeReference<List<Cliente>>() {});
+        Assertions.assertTrue(clientes.size()==5);
+
     }
 
     @Test

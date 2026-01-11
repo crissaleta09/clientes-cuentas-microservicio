@@ -1,6 +1,6 @@
-package bankAccount.domain.repository;
+package bankaccount.domain.repository;
 
-import bankAccount.domain.model.CuentaBancaria;
+import bankaccount.domain.model.CuentaBancaria;
 
 /**
  * Repository interface for bank account management

@@ -1,4 +1,4 @@
-package bankAccount.domain.model;
+package bankaccount.domain.model;
 
 /* Intenté utilizar lombok pero por problemas con el IDE preferí no utlizarlo 
 @Data

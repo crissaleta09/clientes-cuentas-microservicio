@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import bankAccount.application.service.CustomerService;
-import bankAccount.domain.model.Cliente;
+import bankaccount.domain.model.Cliente;
+import bankaccount.application.service.CustomerService;
 
 /**
  * @author isabel.saletameza

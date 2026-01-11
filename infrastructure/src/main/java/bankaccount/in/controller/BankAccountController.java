@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import bankAccount.application.service.BankAccountService;
-import bankAccount.domain.model.CuentaBancaria;
+import bankaccount.domain.model.CuentaBancaria;
+import bankaccount.application.service.BankAccountService;
 
 /**
  * Api Rest controller for bank account management

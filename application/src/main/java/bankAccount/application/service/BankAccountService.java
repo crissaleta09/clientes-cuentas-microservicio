@@ -1,9 +1,9 @@
-package bankAccount.application.service;
+package bankaccount.application.service;
 
 import org.springframework.stereotype.Service;
 
-import bankAccount.domain.model.CuentaBancaria;
-import bankAccount.domain.repository.BankAccountRepository;
+import bankaccount.domain.model.CuentaBancaria;
+import bankaccount.domain.repository.BankAccountRepository;
 
 /**
  * @Service class for bank account management
