@@ -39,7 +39,7 @@ Este proyecto es una API REST para la gestión de clientes y cuentas bancarias, 
 - IDE recomendado: Spring Tool Suite 4 (STS4), IntelliJ IDEA o VS Code
 
 ## Instalación y ejecución
-1. Clona el repositorio:
+1. Clona el repositorio y abrelo como una Proyecto Maven en tu IDE
    ```
    git clone https://github.com/crissaleta09/clientes-cuentas-microservicio.git
    cd bankAccount
@@ -56,6 +56,9 @@ Este proyecto es una API REST para la gestión de clientes y cuentas bancarias, 
 5. Colección de Postman en ./postman
    Puedes importar la colección y las variables globales si quieres probar mediante postman
 
+## Ejecución de tests
+1. Botón derecho sobre BankAccountControllerTest o CustomerControllerTest.
+2. Run as: JUnit test
 
 ## Endpoints principales
 - `POST /cuentas` - Crear cuenta bancaria
