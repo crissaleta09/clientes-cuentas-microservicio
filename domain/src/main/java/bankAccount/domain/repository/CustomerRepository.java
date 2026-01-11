@@ -4,7 +4,9 @@ import java.util.List;
 
 import bankAccount.domain.model.Cliente;
 
-
+/**
+ * Repository interface for customer management
+ */
 public interface CustomerRepository {
 	
 	/** 

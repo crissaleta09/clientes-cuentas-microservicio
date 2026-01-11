@@ -2,6 +2,9 @@ package bankAccount.domain.repository;
 
 import bankAccount.domain.model.CuentaBancaria;
 
+/**
+ * Repository interface for bank account management
+ */
 public interface BankAccountRepository {
 
     /** 
