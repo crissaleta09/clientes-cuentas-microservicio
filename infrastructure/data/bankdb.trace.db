@@ -1,0 +1,3 @@
+2026-01-11 02:39:26.672331+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUENTA_BANCARIA" not found (this database is empty); SQL statement:
+DELETE FROM cuenta_bancaria [42104-240]
